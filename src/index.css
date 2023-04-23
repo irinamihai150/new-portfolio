@@ -1,9 +1,10 @@
 body {
   font-size: 18px;
   background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-image: linear-gradient(43deg, #213599 0%, #C850C0 46%, #FFCC70 100%);
 
 }
+
 /* navigation */
 .nav {
   list-style-type: none;
@@ -44,6 +45,7 @@ nav a:hover {
   background-color: #4CAF50;
   color: white;
 }
+
 /* home-section */
 #home {
   display: flex;
@@ -63,6 +65,7 @@ nav a:hover {
 #home p {
   margin-bottom: 1rem;
 }
+
 /* about-section */
 #about {
   width: 90%;
@@ -74,18 +77,22 @@ nav a:hover {
 .about-description {
   padding: 1em;
   font-size: 1.5em;
-  text-align:end;
+  text-align: end;
 }
+
 .jumbo-image {
   border-radius: 60%;
 }
+
 /* project section */
 h3 {
   font-size: 2em;
 }
+
 .project-description {
   font-size: 1.5em;
 }
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -98,34 +105,51 @@ h3 {
 .project {
   flex: 1 1 600px;
   margin: 10px;
+  border: 3px solid #213599;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 20px;
 }
-
+.project h3{
+  text-align: center;
+}
 .tech-stack p {
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
+}
+.tech-stack {
+  font-size: 1.5em;
+}
 .tech-stack svg {
   width: 50px;
   height: 50px;
-  margin:3px;
-  color: rgb(222, 229, 85);
+  margin: 4px 4px 4px 4px;
+  color: rgb(255, 255, 153);
 }
 
 .project-button {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #eee;
+  margin: 0 auto;
+  background-color: white;
+  width: 15em;
+  height: 4em;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
   text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3em;
 }
 
+button a {
+  color: rgb(16, 17, 16);
+  font-size: 1.5em;
+  font-weight: bold;
+}
 
 /* contact-section */
 .form-container {
@@ -164,8 +188,22 @@ button[type="submit"] {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
+  width: 10em;
+  height: 3em;
 }
 
 button[type="submit"]:hover {
-  background-color: #f0b206;
+  background-color: rgb(239, 181, 177);
+
+}
+
+hr {
+  height: 6px;
+  background-color: rgb(255, 255, 153);
+  border: none;
+  margin: 2em 0;
+  width: 30em;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
 }

@@ -1,5 +1,4 @@
-
-import ContactForm from"./ContactForm";
+import ContactForm from "./ContactForm";
 import {
 	FaHtml5,
 	FaCss3Alt,
@@ -11,7 +10,6 @@ import {
 	FaGithub,
 	FaBootstrap,
 } from "react-icons/fa";
-
 
 function App() {
 	return (
@@ -29,7 +27,7 @@ function App() {
 						<a href="#projects">Projects</a>
 					</li>
 					<li>
-						<a href="#contactForm">Contact</a>
+						<a href="#contact">Contact</a>
 					</li>
 				</ul>
 			</nav>
@@ -188,7 +186,6 @@ function App() {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								<button></button>
 								View Project
 							</a>
 						</button>
@@ -245,25 +242,10 @@ function App() {
 					</div>
 				</div>
 			</section>
-			<section id="#contactForm">
+			<section id="#contact">
+				<h2 style={{textAlign:"center"}}>CONTACT ME</h2>
 				<ContactForm />
-				<div className="social-icons">
-					<a href="https://github.com/irinamihai150" rel="noopener noreferrer">
-						<i
-							class="fa fa-github"
-							style={{ fontSize: "48px", color: "purple" }}
-						></i>
-					</a>
-					<a
-						href="https://www.linkedin.com/in/irinamih/"
-						rel="noopener noreferrer"
-					>
-						<i
-							class="fa fa-linkedin-square"
-							style={{ fontSize: "48px", color: "purple" }}
-						></i>
-					</a>
-				</div>
+				
 			</section>
 		</div>
 	);
